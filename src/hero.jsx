@@ -6,7 +6,7 @@ const Hero = () => {
         <>
             <main className="hero">
                 <div className="contentVideo">
-                    <video src={videoFondo} loop autoPlay className="videoFondo"></video>
+                    <video src={videoFondo} className="videoFondo" preload="auto" loop autoPlay muted ></video>
                     <div className="capaNegra"></div>
                     <div className="contentHero">
                         <h1>EMPIEZA A PROGRAMA<br /> TU FUTURO</h1>
