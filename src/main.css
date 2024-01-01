@@ -11,3 +11,21 @@ a{
     --colorLetras :#1f1f20;
     --colorHeader :#dce0e6;
 }
+.contentAbout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0rem;
+}
+.aboutComponent{
+    width: 45%;
+}
+.estudianteAbout{
+    width: 40%;
+}
+.estudianteAbout img{
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(118, 116, 116);
+}
