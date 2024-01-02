@@ -1,10 +1,6 @@
 import logo from '../imgs/jccodeweb.png';
 import './header.css';
-
-const links = [
-    {id:1,name:"Sobre Nosotros",url:"#about"},
-    {id:2,name:"Cursos",url:"#cursos"}
-];
+import { links } from '../constants/links';
 
 const Header = () => {
     return ( 

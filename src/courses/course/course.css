@@ -1,0 +1,58 @@
+.cardCourse{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: var(--colorHeader);
+    min-width: 25%;
+}
+.contentInfoCourse{
+    width: 90%;
+    margin: 0 auto;
+}
+.cardCourse img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardCourse .tituloCard{
+    font-size:2rem;
+    padding:0.5rem 0;
+}
+.cardCourse .descripCard{
+    font-size: 1.15rem;
+    padding-bottom: 1rem;
+}
+.liksCursos{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.liksCursos a{
+    font-size: 1.2rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease;
+}
+.linkInfo{
+    background-color: var(--colorLetras);
+    color: var(--colorHeader);
+    border: 1px solid var(--colorHeader);
+}
+.linkAnotarse{
+    background-color: rgb(175, 4, 4);
+    color: var(--colorHeader);
+    border: 1px solid var(--colorHeader);
+}
+.linkInfo:hover{
+    background-color:var(--colorHeader);
+    color: var(--colorLetras);
+    border: 1px solid var(--colorLetras);
+}
+.linkAnotarse:hover{
+    background-color: var(--colorHeader);
+    color: rgb(175, 4, 4);
+    border: 1px solid rgb(175, 4, 4);
+}
