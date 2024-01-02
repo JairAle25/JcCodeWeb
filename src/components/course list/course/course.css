@@ -22,6 +22,15 @@
     font-size: 1.15rem;
     padding-bottom: 1rem;
 }
+.cardCourse .priceCard{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+.cardCourse .signoPeso{
+    color: green;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 .liksCursos{
     display: flex;
     flex-direction: row;

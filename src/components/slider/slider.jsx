@@ -1,4 +1,4 @@
-import { logos } from "../constants/logos";
+import { logos } from "../../constants/logos";
 import "./slider.css"
 
 const Slider = () => {

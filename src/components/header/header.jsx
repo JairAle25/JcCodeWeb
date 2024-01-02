@@ -1,6 +1,6 @@
-import logo from '../imgs/jccodeweb.png';
+import logo from '../../imgs/jccodeweb.png';
 import './header.css';
-import { links } from '../constants/links';
+import { links } from '../../constants/links';
 
 const Header = () => {
     return ( 

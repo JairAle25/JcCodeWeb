@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './header/header'
-import Hero from './hero/hero'
-import About from './about/about'
-import estudianteFoto from "./imgs/estudiante.jpg"
-import Slider from './slider/slider'
-import CourseList from './course list/courseList'
+import Header from '../header/header'
+import Hero from '../hero/hero'
+import About from '../about/about'
+import estudianteFoto from "../../imgs/estudiante.jpg"
+import Slider from '../slider/slider'
+import CourseList from '../course list/courseList'
 import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

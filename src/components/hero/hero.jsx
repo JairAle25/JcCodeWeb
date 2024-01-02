@@ -1,4 +1,4 @@
-import videoFondo from "../imgs/fondoHero.mp4"
+import videoFondo from "../../imgs/fondoHero.mp4"
 import "./hero.css"
 
 const Hero = () => {

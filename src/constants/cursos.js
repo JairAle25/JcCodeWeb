@@ -8,7 +8,8 @@ export const cursos = [
         title:"Introduccion al Desarrollo Web",
         descripcion:"Descubre los fundamentos esenciales de la programación web. Desde HTML y CSS hasta conceptos básicos de JavaScript, este curso te brinda una sólida base para iniciar tu viaje en el desarrollo web. ¡Aprende con nosotros y comienza a construir tu presencia digital hoy mismo!",
         linkInfo:"https://drive.google.com/file/d/1JZ6eujlzFSy-FPOigJI---rh3Yh2VcNO/view",
-        linkAnotarse:"https://docs.google.com/forms/d/e/1FAIpQLSfJ4z0ZjsfE3aicEUMI-8RrvCs-rKefoFycqmth_yqRVBBNcA/viewform"
+        linkAnotarse:"https://docs.google.com/forms/d/e/1FAIpQLSfJ4z0ZjsfE3aicEUMI-8RrvCs-rKefoFycqmth_yqRVBBNcA/viewform",
+        price:"27000"
     },
     {
         id:2,
@@ -16,6 +17,7 @@ export const cursos = [
         title:"React - Proximamente...",
         descripcion:"Sumérgete en el emocionante mundo de React, la biblioteca de JavaScript líder para construir interfaces de usuario interactivas. Desde los conceptos fundamentales hasta proyectos prácticos, este curso te guiará en el dominio de React y te preparará para crear aplicaciones web dinámicas e innovadoras",
         linkInfo:"",
-        linkAnotarse:""
+        linkAnotarse:"",
+        price:"???"
     }
 ]
