@@ -1,8 +1,8 @@
 import Course from "./course/course";
-import "./courses.css"
+import "./courseList.css"
 import { cursos } from "../constants/cursos";
 
-const Courses = () => {
+const CourseList = () => {
     return ( 
         <>
             <div className="content" id="cursos">
@@ -18,4 +18,4 @@ const Courses = () => {
      );
 }
  
-export default Courses;
+export default CourseList;
