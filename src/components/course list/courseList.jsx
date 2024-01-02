@@ -6,7 +6,7 @@ const CourseList = () => {
     return ( 
         <>
             <div className="content" id="cursos">
-                <h1>Cursos Disponibles</h1>
+                <h1>CURSOS DISPONIBLES</h1>
                 <section className="courses">
                     
                     <div className="contentCourses">

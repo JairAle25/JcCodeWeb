@@ -6,7 +6,9 @@ import About from '../about/about'
 import estudianteFoto from "../../imgs/estudiante.jpg"
 import Slider from '../slider/slider'
 import CourseList from '../course list/courseList'
+import ContactMe from '../contact me/contactMe'
 import './main.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,5 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </div>
     <Slider></Slider>
     <CourseList></CourseList>
+    <ContactMe></ContactMe>
   </React.StrictMode>,
 )
