@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .contentInfoAbout{
     display: flex;
@@ -30,6 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 2.5rem;
 }
 .contentInfoAbout li{
     font-size: 1.14rem;
@@ -47,4 +47,41 @@
     background-color: var(--colorHeader);
     color: var(--colorLetras);
     border: 1px solid var(--colorLetras);
+}
+
+@media (max-width:1024px){
+    .contentInfoAbout h1{
+        font-size:2.5rem;
+    }
+    .contentInfoAbout p{
+        font-size: 1.5rem;
+    }
+    .contentInfoAbout ul{
+        line-height: 3rem;
+    }
+    .contentInfoAbout li{
+        font-size: 1.4rem;
+    }
+    .linkCursosAbout{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:480px){
+    .contentInfoAbout h1{
+        font-size:1.8rem;
+    }
+    .contentInfoAbout p{
+        font-size: 1.2rem;
+    }
+    .contentInfoAbout ul{
+        text-align: center;
+        list-style: none;
+        line-height: 2rem;
+    }
+    .contentInfoAbout li{
+        font-size: 1.1rem;
+    }
+    .linkCursosAbout{
+        font-size: 1.2rem;
+    }
 }

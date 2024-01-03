@@ -17,21 +17,40 @@ a{
     --colorLetras :#1f1f20;
     --colorHeader :#dce0e6;
 }
-.contentAbout{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 3rem 0rem;
+@media(max-width:7000px ){
+    .contentAbout{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 3rem 0rem;
+    }
+    .aboutComponent{
+        width: 45%;
+    }
+    .estudianteAbout{
+        width: 40%;
+    }
+    .estudianteAbout img{
+        width: 100%;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 5px rgb(118, 116, 116);
+    }
 }
-.aboutComponent{
-    width: 45%;
+
+@media (max-width:1024px){
+    .estudianteAbout{
+        display: none;
+    }
+    .aboutComponent{
+        width: 80%;
+    }
 }
-.estudianteAbout{
-    width: 40%;
-}
-.estudianteAbout img{
-    width: 100%;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 5px rgb(118, 116, 116);
+@media (max-width:1024px){
+    .estudianteAbout{
+        display: none;
+    }
+    .aboutComponent{
+        width: 93%;
+    }
 }

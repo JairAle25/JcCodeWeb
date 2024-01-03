@@ -1,41 +1,43 @@
-.hero{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contentVideo {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-.videoFondo{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.capaNegra{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    pointer-events: none;
-}
-.contentHero{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; 
-}
-.tituloHero{
-    text-align: center;
-    color: var(--colorHeader);
-    font-size: 6rem;
+@media(max-width:7000px ){
+    .hero{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentVideo {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    .videoFondo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .capaNegra{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        pointer-events: none;
+    }
+    .contentHero{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white; 
+    }
+    .tituloHero{
+        text-align: center;
+        color: var(--colorHeader);
+        font-size: 6rem;
+    }
 }
 @media (max-width:1024px){
     .tituloHero{

@@ -11,7 +11,7 @@ const About = () => {
                     <ul>
                         <li>🏆 Cursos que Van Más Allá del Aprendizaje Técnico.</li>
                         <li>🚀 Aventuras Educativas que Desafían y Inspiran.</li>
-                        <li>💡 Un Enfoque Holístico para Desarrollar Habilidades y Creatividad.</li>
+                        <li>💡 Un Enfoque Nuevo para Desarrollar Habilidades y Creatividad.</li>
                         <li>🌐 Una Comunidad que Comparte la Pasión por el Código.</li>
                     </ul>
                     <p>Únete a JcCodeWeb y comienza un viaje donde cada línea de código cuenta tu historia de aprendizaje. ¡Descubre, crea y desata tu potencial con nosotros!</p>
