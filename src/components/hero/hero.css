@@ -37,3 +37,14 @@
     color: var(--colorHeader);
     font-size: 6rem;
 }
+@media (max-width:1024px){
+    .tituloHero{
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width:480px){
+    .tituloHero{
+        font-size: 3.2rem;
+    }
+}
