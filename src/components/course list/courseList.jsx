@@ -5,7 +5,7 @@ import { cursos } from "../../constants/cursos";
 const CourseList = () => {
     return ( 
         <>
-            <div className="content" id="cursos">
+            <div className="content scroll" id="cursos">
                 <h1>CURSOS DISPONIBLES</h1>
                 <section className="courses">
                     

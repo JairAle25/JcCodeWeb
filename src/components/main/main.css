@@ -4,6 +4,12 @@
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+.scroll{
+    scroll-margin-top:14ex;
+}
 a{
     text-decoration: none;
 }

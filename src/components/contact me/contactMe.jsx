@@ -72,7 +72,7 @@ const ContactMe = () => {
 
     return ( 
         <>
-            <section className="contactMe" id="contactMe">
+            <section className="contactMe scroll" id="contactMe">
                 <h1 className="contactTitle">CONTÁCTAME</h1>
                 <form onSubmit={enviarMail} className="contactForm">
                     <label>Nombre:</label>
