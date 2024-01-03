@@ -2,7 +2,6 @@ import "./contactMe.css"
 import { useState } from 'react';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import config from '../../../config.js';
 
 const ContactMe = () => {
 
@@ -24,7 +23,7 @@ const ContactMe = () => {
     const enviarMail =(e)=>{
         e.preventDefault();
         const MySwal = withReactContent(Swal)
-        const apiKey = config.apiKey;
+        const apiKey = import.meta.env.VITE_API_KEY;       
         const body = {
             "sender": {
                 "name": "Contactr JcCodeWeb",
@@ -47,6 +46,7 @@ const ContactMe = () => {
             method: 'POST',
             headers: {
                 'api-key': apiKey,
+                'accept': 'application/json',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(body)
