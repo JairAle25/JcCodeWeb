@@ -1,52 +1,54 @@
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contentInfoAbout{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1.5px solid black;
-    border-radius: 1rem;
-    padding: 1rem;
-    text-align: center;
-    color: var(--colorLetras);
-    box-shadow: 5px 5px 5px rgb(118, 116, 116);
-    background-color: var(--colorHeader);
-}
-.contentInfoAbout h1{
-    font-size:2.1rem;
-}
-.contentInfoAbout p{
-    font-size: 1.2rem;
-    padding: 0.6rem 0;
-}
-.contentInfoAbout ul{
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 2.5rem;
-}
-.contentInfoAbout li{
-    font-size: 1.14rem;
-}
-.linkCursosAbout{
-    background-color: var(--colorLetras);
-    color: var(--colorHeader);
-    padding: 0.5rem 2rem ;
-    font-size: 1.2rem;
-    border: 1px solid var(--colorHeader);
-    border-radius: 0.5rem;
-    transition: all 0.5s ease;
-}
-.linkCursosAbout:hover{
-    background-color: var(--colorHeader);
-    color: var(--colorLetras);
-    border: 1px solid var(--colorLetras);
+@media(max-width:7000px ){
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentInfoAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid black;
+        border-radius: 1rem;
+        padding: 1rem;
+        text-align: center;
+        color: var(--colorLetras);
+        box-shadow: 5px 5px 5px rgb(118, 116, 116);
+        background-color: var(--colorHeader);
+    }
+    .contentInfoAbout h1{
+        font-size:2.1rem;
+    }
+    .contentInfoAbout p{
+        font-size: 1.2rem;
+        padding: 0.6rem 0;
+    }
+    .contentInfoAbout ul{
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2.5rem;
+    }
+    .contentInfoAbout li{
+        font-size: 1.14rem;
+    }
+    .linkCursosAbout{
+        background-color: var(--colorLetras);
+        color: var(--colorHeader);
+        padding: 0.5rem 2rem ;
+        font-size: 1.2rem;
+        border: 1px solid var(--colorHeader);
+        border-radius: 0.5rem;
+        transition: all 0.5s ease;
+    }
+    .linkCursosAbout:hover{
+        background-color: var(--colorHeader);
+        color: var(--colorLetras);
+        border: 1px solid var(--colorLetras);
+    }
 }
 
 @media (max-width:1024px){
