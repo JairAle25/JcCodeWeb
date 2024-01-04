@@ -7,9 +7,6 @@
 html{
     scroll-behavior: smooth;
 }
-.scroll{
-    scroll-margin-top:14ex;
-}
 a{
     text-decoration: none;
 }
@@ -18,6 +15,9 @@ a{
     --colorHeader :#dce0e6;
 }
 @media(max-width:7000px ){
+    .scroll{
+        scroll-margin-top:14ex;
+    }
     .contentAbout{
         display: flex;
         justify-content: space-around;
@@ -39,6 +39,9 @@ a{
 }
 
 @media (max-width:1024px){
+    .scroll{
+        scroll-margin-top:12ex;
+    }
     .estudianteAbout{
         display: none;
     }
@@ -46,7 +49,10 @@ a{
         width: 80%;
     }
 }
-@media (max-width:1024px){
+@media (max-width:480px){
+    .scroll{
+        scroll-margin-top:9ex;
+    }
     .estudianteAbout{
         display: none;
     }
