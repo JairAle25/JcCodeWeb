@@ -1,67 +1,106 @@
-.contactMe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid var(--colorLetras);
-    border-radius: 0.5rem;
-    padding: 1rem 0;
-    width: 35%;
-    background-color: var(--colorHeader);
-    margin: 0 auto;
-    margin-bottom: 4rem;
+@media(max-width:7000px ){
+    .contactMe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid var(--colorLetras);
+        border-radius: 0.5rem;
+        padding: 1rem 0;
+        width: 35%;
+        background-color: var(--colorHeader);
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+    .contactTitle{
+        font-size: 3.3rem;
+        padding-bottom: 3rem;
+        color: var(--colorLetras);
+    }
+    .contactForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contactForm label{
+        font-size: 1.4rem;
+        color: var(--colorLetras);
+    }
+    .contactForm input{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        border-radius: 0.3rem;
+        padding: 0.3rem 0.3rem;
+        width: 60%;
+    }
+    .contactForm .inputsData{
+        color: var(--colorLetras);
+        border: 1px solid var(--colorLetras);
+    }
+    .inputConsulta{
+        font-size: 1.3rem;
+        padding: 0.5rem 0.5rem; 
+        resize: none; 
+        width: 60%;  
+        min-height: 100px;
+        text-align: center;
+        border-radius: 0.3rem;
+        border: 1px solid var(--colorLetras);
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .buttonContact{
+        background-color: var(--colorLetras);
+        color: var(--colorHeader);
+        border: 1px solid var(--colorHeader);
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    .buttonContact:hover{
+        background-color: var(--colorHeader);
+        color: var(--colorLetras);
+        border: 1px solid var(--colorLetras);
+    }
 }
-.contactTitle{
-    font-size: 3.3rem;
-    padding-bottom: 3rem;
-    color: var(--colorLetras);
+@media (max-width:1024px){
+    .contactMe{
+        width: 80%;
+    }
+    .contactTitle{
+        font-size: 3.3rem;
+        padding-bottom: 2rem;
+    }
+    .contactForm label{
+        font-size: 1.6rem;
+    }
+    .contactForm input{
+        font-size: 1.3rem;
+    }
+    .inputConsulta{
+        font-size: 1.3rem;
+    }
 }
-.contactForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.contactForm label{
-    font-size: 1.4rem;
-    color: var(--colorLetras);
-}
-.contactForm input{
-    font-size: 1.3rem;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
-    
-    padding: 0.3rem 0.3rem;
-    width: 60%;
-}
-.contactForm .inputsData{
-    color: var(--colorLetras);
-    border: 1px solid var(--colorLetras);
-}
-.inputConsulta{
-    font-size: 1.3rem;
-    padding: 0.5rem 0.5rem; 
-    resize: none; 
-    width: 60%;  
-    min-height: 100px;
-    text-align: center;
-    border-radius: 0.3rem;
-    border: 1px solid var(--colorLetras);
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-.buttonContact{
-    background-color: var(--colorLetras);
-    color: var(--colorHeader);
-    border: 1px solid var(--colorHeader);
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-.buttonContact:hover{
-    background-color: var(--colorHeader);
-    color: var(--colorLetras);
-    border: 1px solid var(--colorLetras);
+@media (max-width:480px){
+    .contactMe{
+        width: 90%;
+    }
+    .contactTitle{
+        font-size: 2.9rem;
+        padding-bottom: 1rem;
+    }
+    .contactForm label{
+        font-size: 1.35rem;
+    }
+    .contactForm input{
+        font-size: 1.25rem;
+        width: 80%;
+    }
+    .inputConsulta{
+        font-size: 1.3rem;
+        width: 80%;
+    }
 }
