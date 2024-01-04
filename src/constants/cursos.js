@@ -16,8 +16,8 @@ export const cursos = [
         urlImagen:imgReactCurso,
         title:"React - Proximamente...",
         descripcion:"Sumérgete en el emocionante mundo de React, la biblioteca de JavaScript líder para construir interfaces de usuario interactivas. Desde los conceptos fundamentales hasta proyectos prácticos, este curso te guiará en el dominio de React y te preparará para crear aplicaciones web dinámicas e innovadoras",
-        linkInfo:"",
-        linkAnotarse:"",
+        linkInfo:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
+        linkAnotarse:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
         price:"???"
     }
 ]
