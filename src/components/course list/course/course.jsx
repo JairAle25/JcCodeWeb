@@ -1,7 +1,7 @@
 import cursoDesarrollo from "../../../imgs/cursoDesarroloWeb.jpg"
 import "./course.css"
 
-const Course = ({urlImage,title,descrip,linkInfo,linkAnotarse,price}) => {
+const Course = ({urlImage,title,descrip,linkInfo,linkAnotarse,price,registrations}) => {
     return ( 
         <>
             <div className="cardCourse">
@@ -11,8 +11,8 @@ const Course = ({urlImage,title,descrip,linkInfo,linkAnotarse,price}) => {
                     <p className="descripCard">{descrip}</p>
                     <div className="contentPrice">
                         <p className="priceCard">{price} <span className="signoPeso">$</span></p>
-                        
                     </div>
+                    <p className={registrations ? "inscAbiertas" : "inscCerradas"}>{registrations ? "Inscripción Abiertas" : "Inscripción Cerradas"}</p>
                     <div className="liksCursos">
                         <a href={linkInfo} className="linkInfo" target="_blank">Temario del curso</a>
                         <a href={linkAnotarse} className="linkAnotarse" target="_blank">Inscribite Ahora!!</a>

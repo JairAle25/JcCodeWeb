@@ -25,12 +25,22 @@
     }
     .cardCourse .priceCard{
         font-size: 1.3rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
     }
     .cardCourse .signoPeso{
         color: green;
         font-size: 1.3rem;
         font-weight: bold;
+    }
+    .inscAbiertas{
+        color:green;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    .inscCerradas{
+        color:red;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
     }
     .liksCursos{
         display: flex;
