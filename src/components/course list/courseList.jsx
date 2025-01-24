@@ -19,6 +19,7 @@ const CourseList = () => {
                             linkInfo={curso.linkInfo} 
                             linkAnotarse={curso.linkAnotarse} 
                             price={curso.price}
+                            priceUSD={curso.priceUSD}
                             registrations={curso.registrations}>
                         </Course>)}
                     </div>

@@ -7,10 +7,11 @@ export const cursos = [
         urlImagen:imgDesarrolloWeb,
         title:"Introduccion al Desarrollo Web",
         descripcion:"Descubre los fundamentos esenciales de la programación web. Desde HTML y CSS hasta conceptos básicos de JavaScript, este curso te brinda una sólida base para iniciar tu viaje en el desarrollo web. ¡Aprende con nosotros y comienza a construir tu presencia digital hoy mismo!",
-        linkInfo:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
-        linkAnotarse:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
-        price:"27000",
-        registrations: false
+        linkInfo:"https://drive.google.com/file/d/1jhng2a14qhy6iw8Md0GwT2sc2Ol97Dxs/view?usp=drive_link",
+        linkAnotarse:"https://forms.gle/MXd6dvR9jb9oAHSMA",
+        price:"20000",
+        priceUSD:"20",
+        registrations: true
     },
     {
         id:2,
@@ -20,6 +21,7 @@ export const cursos = [
         linkInfo:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
         linkAnotarse:"https://baddf886da.clvaw-cdnwnd.com/fc03c96ca7e15cef6f23d0c8ebd92195/200002266-8e4e48e4e7/5.jpg?ph=baddf886da",
         price:"???",
+        priceUSD:"??",
         registrations: false
     }
 ]
